@@ -1,0 +1,15 @@
+//CSS Heading
+.name, .title {transition: color 0.5s linear; font-weight: 300; position: relative; z-index: 1; }
+.name {font-size: 7.75rem; margin: 0 0 3.5rem; color: #fff; }
+.job-title {font-size: 4.7rem; font-weight: 150; margin: 3.5rem 0; color: #f7f7f7; }
+
+//MEDIA QUERIES
+@media only screen and (max-width: 1125px) {
+.name {font-size: 4.7rem; }
+.job-title {font-size: 2.7rem; }
+}
+@media only screen and (max-width: 800px)
+{
+.name {font-size: 4rem; }
+.job-title {font-size: 2.3rem;}
+}
